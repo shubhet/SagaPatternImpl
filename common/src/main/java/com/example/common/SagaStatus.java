@@ -1,0 +1,17 @@
+package com.example.common;
+
+public enum SagaStatus {
+
+    ORDER_CREATED,
+
+    PAYMENT_PENDING,
+    PAYMENT_SUCCESS,
+    PAYMENT_FAILED,
+
+    INVENTORY_PENDING,
+    INVENTORY_RESERVED,
+    INVENTORY_FAILED,
+
+    ORDER_COMPLETED,
+    PAYMENT_COMPLETED, ORDER_CANCELLED
+}
